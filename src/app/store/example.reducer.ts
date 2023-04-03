@@ -4,7 +4,7 @@ import {ExampleActions} from "./example.actions";
 export interface State {
   count: number;
   message?: string;
-};
+}
 
 const initialState: State = {
   count: 0,
